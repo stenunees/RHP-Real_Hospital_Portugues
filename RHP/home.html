@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style2.css">
+   
+    
+    <script>
+        $(function() {
+    $("#calendario").datepicker({
+        dateFormat: 'dd/mm/yy',
+        dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado','Domingo'],
+        dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
+        dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
+        monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+        monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+    });
+});
+
+
+
+    </script>
+</head>
+<body>
+   <center><h1>Agendamento</h1></center>
+   <img src="rrrrrrrrrrrrrrrrrrrrrrrr.png" alt="some text" width=200 height=200>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <p><input type="text" id="calendario" /></p>
+
+    <select id="sala">
+        
+        <option>Sala 1</option>
+        <option>Sala 2</option>
+        <option>Sala 3</option>
+        <option>Sala 4</option>
+        <option>Sala 5</option>
+        <option>Sala 6</option>
+        <option>Sala 7</option>
+        <option>Sala 8</option>
+
+    </select>
+     
+    <select id="horas">
+        
+        <option>08h:00</option>
+        <option>09h:00</option>
+        <option>10h:00</option>
+        <option>11h:00</option>
+        <option>12h:00</option>
+        <option>13h:00</option>
+        <option>14h:00</option>
+        <option>15h:00</option>
+
+    </select>
+     <h2>Materiais</h2>
+    <select id="suprimentos">
+    
+        <option>Datashow</option>
+        <option>Laser</option>
+        <option>Tabela</option>
+        <option>Quadro de amostragem</option>
+      
+
+    </select>
+    <select id="qtd">
+        
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+
+    
+    
+
+
+ </body>
+</html>
+
+
+
+
